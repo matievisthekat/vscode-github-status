@@ -22,7 +22,7 @@
   ],
   "homepage": "https://github.com/ericm/vscode-github-status",
   "activationEvents": [
-    "*",
+    "onStartupFinished",
     "onCommand:githubstatus.restart"
   ],
   "main": "./out/extension.js",
